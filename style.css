@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  min-height: 70vh;
+}
+
+.wrapper {
+  display: grid;
+
+  justify-content: center;
+  min-width: 500px;
+
+  border: 5px solid grey;
+}
+
+.box {
+  border: 1px solid black;
+}
+
+.range {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+}
